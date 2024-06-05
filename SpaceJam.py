@@ -32,6 +32,7 @@ class MyApp(ShowBase):
         tex2 = self.loader.loadTexture("./Assets/Universe/Universe.jpg")
         self.Universe.setTexture(tex, 1)
         self.Planet1.setTexture(tex2, 1)
+        
 
     # Prepare message if server wants to quit.
     def quit(self):
